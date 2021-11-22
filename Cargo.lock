@@ -70,9 +70,9 @@ dependencies = [
 
 [[package]]
 name = "anyhow"
-version = "1.0.44"
+version = "1.0.45"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "61604a8f862e1d5c3229fdd78f8b02c68dcf73a4c4b05fd636d12240aaa242c1"
+checksum = "ee10e43ae4a853c0a3591d4e2ada1719e553be18199d9da9d4a83f5927c2f5c7"
 
 [[package]]
 name = "arc-swap"
@@ -1788,9 +1788,9 @@ checksum = "7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70"
 
 [[package]]
 name = "hidapi"
-version = "1.2.7"
+version = "1.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4f39cbe399e8e9550264e9f26553bf26f5ece2b6cf13abe32d06c857a5166263"
+checksum = "8d6f5e247bc66f3255d755e96d9d43f6b191f4e182072b811d55584ff58c510f"
 dependencies = [
  "cc",
  "libc",
@@ -4616,6 +4616,7 @@ dependencies = [
 name = "solana-cli-config"
 version = "1.9.0"
 dependencies = [
+ "anyhow",
  "dirs-next",
  "lazy_static",
  "serde",
